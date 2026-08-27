@@ -198,6 +198,25 @@ section.alt { background: var(--bg-alt); border-block: 1px solid var(--line); }
   padding: 16px 20px; border-radius: 0 10px 10px 0; color: var(--text-muted); font-size: 0.95rem;
 }
 
+/* ---------- Venues ---------- */
+
+.updated {
+  font-size: 0.85rem; letter-spacing: 0.04em; color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.updated time { color: var(--text); font-weight: 600; }
+
+.card.venue { display: flex; flex-direction: column; }
+.card.venue address {
+  font-style: normal; color: var(--text-muted); margin-bottom: 16px; flex: 1;
+}
+.venue-site {
+  font-size: 0.9rem; font-weight: 600; word-break: break-word;
+  text-decoration: none; border-bottom: 1px solid rgba(224, 163, 62, 0.4);
+  align-self: flex-start;
+}
+.venue-site:hover { border-bottom-color: var(--accent); }
+
 /* ---------- Contact ---------- */
 
 .contact-list { list-style: none; margin: 0; padding: 0; }

@@ -10,6 +10,8 @@ Plain HTML, CSS, and a few lines of JavaScript. No build step, no dependencies.
 ```
 index.html         Home
 services.html      Services
+venues.html        Venue list (carries a "last updated" date -- bump it when you edit)
+experience.html    Experience & staff
 about.html         About
 contact.html       Contact
 404.html           Not-found page (served by GitHub Pages)
@@ -53,6 +55,8 @@ under **Settings → Pages**.
 ## Still to add
 
 - **Phone / mailing address** — not on the site yet; add to `contact.html` when available.
+- **Track record numbers** — `experience.html` has a commented-out block for years in business,
+  events per season, venues served, and roster size. Left blank rather than guessed at.
 - **Copy** — the service descriptions on `index.html` and `services.html` are a starting
   point written to be edited, not final marketing copy.
 - **Social links, photos, client list, team bios** — none yet.

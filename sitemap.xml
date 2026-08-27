@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://vincentdavis.github.io/yfioco/</loc><priority>1.0</priority></url>
   <url><loc>https://vincentdavis.github.io/yfioco/services.html</loc><priority>0.8</priority></url>
+  <url><loc>https://vincentdavis.github.io/yfioco/venues.html</loc><priority>0.7</priority></url>
+  <url><loc>https://vincentdavis.github.io/yfioco/experience.html</loc><priority>0.7</priority></url>
   <url><loc>https://vincentdavis.github.io/yfioco/about.html</loc><priority>0.6</priority></url>
   <url><loc>https://vincentdavis.github.io/yfioco/contact.html</loc><priority>0.8</priority></url>
 </urlset>
