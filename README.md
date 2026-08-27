@@ -61,9 +61,14 @@ under **Settings → Pages**.
   point written to be edited, not final marketing copy.
 - **Social links, photos, client list, team bios** — none yet.
 
-The contact address is `info@yfiomerch.com`, in `contact.html` and in the footer of every
-page. Changing it means editing all five pages — `grep -rl info@yfiomerch.com *.html`
-lists them.
+**No contact method is published right now.** The `info@yfiomerch.com` mailto links were
+removed deliberately so the address is not sitting in the page source for spam bots to
+scrape. `contact.html` says a form is coming; until one is wired up, the site gives
+visitors no way to reach YFIO.
+
+A form needs a third-party backend, since GitHub Pages is static and cannot receive a
+POST. Formspree or Web3Forms both hold the destination address on their side, so only an
+opaque form ID appears in the page.
 
 ## Adding a page
 
