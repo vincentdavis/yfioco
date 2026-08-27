@@ -36,11 +36,13 @@ Or just open `index.html` in a browser.
 
 Deployment runs from `.github/workflows/pages.yml` on every push to the deploy branch.
 
-**One-time setup in GitHub:** go to **Settings → Pages → Build and deployment**
-and set **Source** to **GitHub Actions**. The first workflow run publishes the site to
+The workflow turns Pages on by itself (`configure-pages` with `enablement: true`), so
+there is nothing to click in **Settings → Pages**. The site publishes to
 https://vincentdavis.github.io/yfioco/
 
-Once the site lives on `main`, trim the workflow's `branches:` list down to `main`.
+`claude/yfio-static-site-s14eg6` is currently the repository's default branch, since it
+was the first branch pushed. If you rename it to `main`, trim the workflow's `branches:`
+list down to `main`.
 
 ### Custom domain
 

@@ -24,7 +24,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # enablement: true turns Pages on and points it at Actions, so the site
+      # publishes without a manual visit to Settings -> Pages.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       # The site is plain HTML/CSS/JS — the repository root is the artifact.
       - uses: actions/upload-pages-artifact@v3
