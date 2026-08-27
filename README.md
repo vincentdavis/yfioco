@@ -47,19 +47,19 @@ list down to `main`.
 ### Custom domain
 
 Add a file named `CNAME` at the repository root containing just the domain
-(for example `yfio.com`), point the DNS records at GitHub Pages, and set the domain
+(for example `yfiomerch.com`), point the DNS records at GitHub Pages, and set the domain
 under **Settings → Pages**.
 
-## Before going live — placeholders to replace
+## Still to add
 
-Search the repository for `TODO` to find these:
-
-- **Contact email** — `info@yfioco.com` appears in `contact.html` and in the footer of every
-  page. Replace it with the real address.
 - **Phone / mailing address** — not on the site yet; add to `contact.html` when available.
 - **Copy** — the service descriptions on `index.html` and `services.html` are a starting
   point written to be edited, not final marketing copy.
 - **Social links, photos, client list, team bios** — none yet.
+
+The contact address is `info@yfiomerch.com`, in `contact.html` and in the footer of every
+page. Changing it means editing all five pages — `grep -rl info@yfiomerch.com *.html`
+lists them.
 
 ## Adding a page
 
